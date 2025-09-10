@@ -31,3 +31,19 @@ build/
 
 ### VS Code ###
 .vscode/
+
+### Logs ###
+*.log
+
+### OS ###
+.DS_Store
+Thumbs.db
+
+### Sensitive configs ###
+application.properties
+application.yml
+
+### Dependency artifacts ###
+*.jar
+*.war
+*.ear
