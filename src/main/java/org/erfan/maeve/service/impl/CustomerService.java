@@ -25,5 +25,12 @@ public class CustomerService extends BaseService<Customer, Long> {
                 .findFirst()
                 .orElse(null);
     }
+
+    public Customer findByUserName(String userName) {
+        return customerRepository.findAll().stream()
+                .filter(c -> c.getUserName().equals(userName))
+                .findFirst()
+                .orElse(null);
+    }
 }
 
