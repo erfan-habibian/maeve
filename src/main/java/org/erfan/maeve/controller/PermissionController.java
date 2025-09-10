@@ -1,7 +1,7 @@
 package org.erfan.maeve.controller;
 
 import org.erfan.maeve.entity.Permission;
-import org.erfan.maeve.service.PermissionService;
+import org.erfan.maeve.service.impl.PermissionService;
 import org.springframework.web.bind.annotation.*;
 
 @RestController

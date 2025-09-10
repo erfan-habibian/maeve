@@ -1,7 +1,7 @@
 package org.erfan.maeve.controller;
 
 import org.erfan.maeve.entity.OrderedFood;
-import org.erfan.maeve.service.OrderedFoodService;
+import org.erfan.maeve.service.impl.OrderedFoodService;
 import org.springframework.web.bind.annotation.*;
 
 @RestController

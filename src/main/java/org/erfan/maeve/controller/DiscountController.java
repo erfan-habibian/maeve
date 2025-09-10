@@ -1,7 +1,7 @@
 package org.erfan.maeve.controller;
 
 import org.erfan.maeve.entity.Discount;
-import org.erfan.maeve.service.DiscountService;
+import org.erfan.maeve.service.impl.DiscountService;
 import org.springframework.web.bind.annotation.*;
 
 @RestController

@@ -1,7 +1,7 @@
 package org.erfan.maeve.controller;
 
 import org.erfan.maeve.entity.ResponsibilityAndChef;
-import org.erfan.maeve.service.ResponsibilityAndChefService;
+import org.erfan.maeve.service.impl.ResponsibilityAndChefService;
 import org.springframework.web.bind.annotation.*;
 
 @RestController

@@ -1,7 +1,7 @@
 package org.erfan.maeve.controller;
 
 import org.erfan.maeve.entity.Review;
-import org.erfan.maeve.service.ReviewService;
+import org.erfan.maeve.service.impl.ReviewService;
 import org.springframework.web.bind.annotation.*;
 
 @RestController

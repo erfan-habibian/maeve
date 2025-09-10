@@ -1,7 +1,7 @@
 package org.erfan.maeve.controller;
 
 import org.erfan.maeve.entity.Order;
-import org.erfan.maeve.service.OrderService;
+import org.erfan.maeve.service.impl.OrderService;
 import org.springframework.web.bind.annotation.*;
 
 @RestController

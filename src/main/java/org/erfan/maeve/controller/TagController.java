@@ -1,7 +1,7 @@
 package org.erfan.maeve.controller;
 
 import org.erfan.maeve.entity.Tag;
-import org.erfan.maeve.service.TagService;
+import org.erfan.maeve.service.impl.TagService;
 import org.springframework.web.bind.annotation.*;
 
 @RestController

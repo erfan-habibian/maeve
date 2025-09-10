@@ -1,7 +1,8 @@
-package org.erfan.maeve.service;
+package org.erfan.maeve.service.impl;
 
 import org.erfan.maeve.entity.Food;
 import org.erfan.maeve.repository.FoodRepository;
+import org.erfan.maeve.service.BaseService;
 import org.springframework.stereotype.Service;
 import java.util.List;
 

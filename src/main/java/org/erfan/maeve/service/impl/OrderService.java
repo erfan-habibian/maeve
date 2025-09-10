@@ -1,8 +1,9 @@
-package org.erfan.maeve.service;
+package org.erfan.maeve.service.impl;
 
 import org.erfan.maeve.entity.Order;
 import org.erfan.maeve.entity.OrderStatus;
 import org.erfan.maeve.repository.OrderRepository;
+import org.erfan.maeve.service.BaseService;
 import org.springframework.stereotype.Service;
 
 @Service

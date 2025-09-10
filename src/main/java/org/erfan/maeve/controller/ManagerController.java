@@ -1,7 +1,7 @@
 package org.erfan.maeve.controller;
 
 import org.erfan.maeve.entity.Manager;
-import org.erfan.maeve.service.ManagerService;
+import org.erfan.maeve.service.impl.ManagerService;
 import org.springframework.web.bind.annotation.*;
 
 @RestController

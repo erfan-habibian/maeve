@@ -1,7 +1,8 @@
-package org.erfan.maeve.service;
+package org.erfan.maeve.service.impl;
 
 import org.erfan.maeve.entity.Customer;
 import org.erfan.maeve.repository.CustomerRepository;
+import org.erfan.maeve.service.BaseService;
 import org.springframework.stereotype.Service;
 
 @Service
