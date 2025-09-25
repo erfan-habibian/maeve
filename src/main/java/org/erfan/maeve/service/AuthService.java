@@ -4,6 +4,6 @@ import org.erfan.maeve.dto.JwtResponse;
 import org.erfan.maeve.dto.SignUpRequest;
 
 public interface AuthService {
-    JwtResponse login(String username, String password);
-    JwtResponse  signUp(SignUpRequest request);
+    Long login(String username, String password);
+    Long  signUp(SignUpRequest request);
 }

@@ -22,30 +22,20 @@ public class AuthController {
     // ================= Sign Up =================
     @PostMapping("/signup")
     public ResponseEntity<?> signUp(@RequestBody SignUpRequest request) {
-        try {
-            JwtResponse jwt = authService.signUp(request);
-            return ResponseEntity.ok(jwt);
-        } catch (RuntimeException e) {
-            return ResponseEntity.badRequest().body(e.getMessage());
-        }
+        Long customerId = authService.signUp(request);
+        return ResponseEntity.ok(customerId);
     }
 
     // ================= Login =================
     @PostMapping("/login")
     public ResponseEntity<?> login(String username, String password) {
-        try {
-            JwtResponse jwt = authService.login(username, password);
-            return ResponseEntity.ok(jwt);
-        } catch (RuntimeException e) {
-            return ResponseEntity.status(401).body(e.getMessage());
-        }
+        Long customerId = authService.login(username, password);
+        return ResponseEntity.ok(customerId);
     }
 
     // ================= Logout =================
     @PostMapping("/logout")
     public ResponseEntity<?> logout() {
-        // چون JWT stateless هست، Logout صرفاً سمت Client انجام میشه
-        // یعنی Client باید Token رو پاک کنه
         return ResponseEntity.ok("Logged out successfully");
     }
 
